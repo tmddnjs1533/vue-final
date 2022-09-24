@@ -1,13 +1,9 @@
 <template>
-  <div>Page is Not Found.</div>
+  <div>Page is not found</div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "NotFoundPage",
-});
+<script>
+export default {};
 </script>
 
-<style scoped></style>
+<style></style>

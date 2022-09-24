@@ -1,13 +1,18 @@
 <template>
-  <div>LoginPage</div>
+  <div>
+    <h1 class="page-header">로그인 페이지</h1>
+    <LoginForm></LoginForm>
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
+<script>
+import LoginForm from "@/components/LoginForm.vue";
 
-export default Vue.extend({
-  name: "LoginPage",
-});
+export default {
+  components: {
+    LoginForm,
+  },
+};
 </script>
 
-<style scoped></style>
+<style></style>

@@ -1,15 +1,18 @@
 <template>
-  <div><SignupForm /></div>
+  <div>
+    <h1 class="page-header">회원 가입 페이지</h1>
+    <SignupForm></SignupForm>
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-import SignupForm from "../components/SignupForm.vue";
+<script>
+import SignupForm from "@/components/SignupForm.vue";
 
-export default Vue.extend({
-  name: "SignupPage",
-  components: { SignupForm },
-});
+export default {
+  components: {
+    SignupForm,
+  },
+};
 </script>
 
-<style scoped></style>
+<style></style>
