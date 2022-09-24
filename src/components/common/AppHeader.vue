@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="css">
 .username {
   color: white;
 }
@@ -54,11 +54,11 @@ header {
 a {
   color: #dedede;
   font-size: 18px;
-  &.logo {
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-  }
+}
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
 }
 .logo > span {
   font-size: 14px;
@@ -75,7 +75,7 @@ a {
 .logout-button {
   font-size: 14px;
 }
-a.router-link-exact-active {
+.router-link-exact-active {
   color: white;
   font-weight: bold;
 }
